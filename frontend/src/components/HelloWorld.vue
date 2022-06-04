@@ -4,7 +4,7 @@ import {Greet} from '../../wailsjs/go/main/App'
 
 const data = reactive({
   name: "",
-  resultText: "Please enter your name below 👇",
+  resultText: "Please enter your name 👇",
 })
 
 function greet() {

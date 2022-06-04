@@ -3,11 +3,17 @@ import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
-  <img id="logo" alt="Wails logo" src="./assets/images/logo-universal.png"/>
-  <HelloWorld/>
+  <div>
+    <img id="logo" alt="Wails logo" src="./assets/images/logo-universal.png"/>
+    <HelloWorld/>
+  </div>
 </template>
 
 <style>
+div {
+  margin: 0;
+  padding: 0;
+}
 #logo {
   display: block;
   width: 50%;
