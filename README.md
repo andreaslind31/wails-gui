@@ -1,3 +1,5 @@
+![wails](wails.png)
+
 # README
 
 ## About
